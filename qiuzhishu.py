@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 25 17:31:28 2018
 
-@author: LMI3D
+@author: Reus
 """
 
 k = []
@@ -24,4 +24,5 @@ for i in m :
     if not i in k:
         result.append(i)
         
+print(len(result))   
 print(result)
